@@ -2,13 +2,18 @@
   "posts": [
     {
       "title": "Welcome to My Blog!",
-      "body": "hi there, i am wowdog15. i make this blog to share my thoughts and updates on my projects. (my posts are stored in |c|posts.json|c| and i just |c|git push origin main|c| to update my posts lmfao)",
+      "body": "hi there, i am wowdog15. i make this blog to share my thoughts and updates on my projects.",
       "important": false
     },
     {
       "title": "i downloaded rust",
       "body": "i downloaded rust is pretty good, it is a good language. i made a hello world program: <br>|c|fn main() {<br>println!('Hello, world!');<br>}|c|",
       "important": false
+    },
+    {
+      "title": "rust update",
+      "body": "i quit rust.",
+      "important": true
     },
     {
       "title": "rust update",
