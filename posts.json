@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Welcome to My Blog!",
+      "body": "hi there, i am wowdog15. i make this blog to share my thoughts and updates on my projects. (my posts are stored in |c|posts.json|c| and i just |c|git push origin main|c| to update my posts lmfao)",
+      "important": false
+    },
+    {
+      "title": "important",
+      "body": "this post is important",
+      "important": true
+    }
+  ]
+}
