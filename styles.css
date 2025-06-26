@@ -18,7 +18,6 @@ body {
   border-radius: 20px;
   line-height: 25px;
 }
-
 #loading-message {
     text-align: center;
     font-style: italic;
@@ -34,3 +33,13 @@ code {
     padding: 5px;
     border-radius: 5px;
 }
+    .header {
+      display: flex;
+      align-items: center;   /* vertical alignment */
+      gap: 10px;             /* spacing between image and text */
+    }
+    .header h1 {
+      margin: 0;             /* remove default margin from h1 */
+      font-size: 24px;
+      color: white;
+    }

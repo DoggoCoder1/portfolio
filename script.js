@@ -12,7 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       posts.forEach(({ title, description, body, important }) => {
-        const formattedBody = body.replace(/\|c\|(.*?)\|c\|/g, '<code>$1</code>');
+        const formattedBody = body.replace(/\|c\|(.*?)\|c\|/gs, (_, code) => {
+          return `<pre><code>${code}</code></pre>`;
+        });
+
         if (!description) {
           description = "";
         }
